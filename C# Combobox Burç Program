@@ -1,0 +1,71 @@
+ private void button1_Click(object sender, EventArgs e)
+        {
+
+           
+            if (comboBox1.Text == "Koç")
+            {
+                textBox1.Text = "Bugün harekete geçmek için kuvvetli arzular duyacaksınız. Yeni atılımlarda bulunmak isteyebilirsiniz ve yabancılar ile görüşebilirsiniz. Ayrıca kalabalıklar içinde olmak ve saygın çevrelerde dolaşmak duygularınızı yükseltecek. Daha iyimser ve anlayışlı olabilirsiniz ve böylece ilişkilerinizi daha sıcak hale getirebilirsiniz. Seyahate çıkmak ve hareket halinde olmaktan keyif alacaksınız. İsteklerinizi rahat bir biçimde ortaya koyabilir, sempatik tavırlarınız ile hem çevrenizi, hem de karşı cinsi etkileyebilirsiniz. Günün ilerleyen saatlerinde ani değişiklikler ve sürpriz karşılaşmalar olabilir.";
+                pictureBox1.ImageLocation = "koc.jpg";   
+            }
+            if (comboBox1.Text == "Boğa")
+            {
+                textBox1.Text = "Biraz gergin ve isteksiz olabilirsiniz fakat sabah saatlerinde yapmanız gereken işleri planlayacak ve geleceğe yönelik hayaller kuracaksınız. Sezgilerinizin yükseldiği bir dönemdesiniz ve içinizden yükselen sese kulak verirseniz, başarılı olacaksınız. Alışkanlıklarınızı değiştirmeye zorlayan durumlar olabilir ve eskiden isteyip de yapamadığınız her ne var ise, bunları yapmak için gayret gösterebilirsiniz. Ancak sert ve zorlayıcı bir tavır içinde bulunmayın. Hem kendinizi, hem de çevrenizi zorlamasanız iyi olacak. Bu arada parasal harcamalarınıza özen göstermeniz gerekiyor. İhtiyaçlarınız artmış olabilir.";
+                pictureBox1.ImageLocation = "boga.jpg";
+            }
+            if (comboBox1.Text == "İkizler")
+            {
+                textBox1.Text = "Farklı duygularla güne başlayacaksınız. Sabah saatlerinde huzursuzluk ve gerilim hissedebilirsiniz. Alacağınız haberler ve karşılaşacağınız olaylardan kolay etkilenebilirsiniz ve endişe duyabilirsiniz, Ayrıca gördüğünüz tuhaf rüyalardan da etkilenmiş olabilirsiniz. Duygularınızın dalgalanacağı bir gün... Alıngan ve duyarlı olabilirsiniz. Duygularınızı denetlemeniz zor olabilir fakat dışarı çıkmak ve hareket halinde olmak sizi rahatlatacak. Özellikle yabancı ortamlarda bulunmak halinizi değiştirecek. Saygı duyduğunuz kişilerin iyimser tavırları ile rahatlayabilirsiniz ve endişelerden uzaklaşabilirsiniz.";
+                pictureBox1.ImageLocation = "ikizler.jpg";
+            }
+            if (comboBox1.Text == "Yengeç")
+            {
+                textBox1.Text = "Bugün farklı duygular içine girebilirsiniz. Yapılması gereken işleri sabah yapın ve sonraya bırakmayın. Hayal gücünüzün yükseldiği bir dönemdesiniz ve dikkatinizi odaklamanız zor olabilir. Öğlene doğru haliniz değişecek. Duygusal gerilim ve huzursuzluk hissedebilirsiniz. Ani gelişen olaylar ve marjinal kişiler ile karşılaşmaktan rahatsızlık duyabilirsiniz. Fakat sabırlı ve dirayetli davranmayı başaracaksınız. Enerjinizi yapıcı yönde kullanabilir ve kararlarınızı sürdürmeyi başarabilirsiniz. Böylece sizi rahatsız eden olaylar ve kişiler ile ilgili düşünceleriniz de değişebilir.";
+                pictureBox1.ImageLocation = "yengec.jpg";
+            }
+            if (comboBox1.Text == "Aslan")
+            {
+                textBox1.Text = "Yeni başlangıçların hazırlığı içindesiniz. Huzursuz ve gergin olsanız bile olaylara daha özgür bir açıdan bakabilirsiniz ve yaşam felsefenizi gözden geçirebilirsiniz. Duygusal ve alıngan bir tavır içine girmek yerine yapıcı ve çözümleyici olursanız, isteklerinizi gerçekleştirmeniz mümkün olacak. Tabii sabırlı olmanız gereken bir dönem ve gelişmeler beklediğinizden daha yavaş olabilir ve bu arada istekleriniz değişebilir. Bugün sürpriz gelişmeler olabilir ve heyecan duyabilirsiniz. Özellikle yaratıcılığı yüksek kişiler ile karşılaşabilirsiniz ve yaratıcı potansiyelinizin uyandığını hissedebilirsiniz. Yenilikler ve teknoloji ile ilgilenmek keyfinizi yerine getirecek.";
+                pictureBox1.ImageLocation = "aslan.jpg";
+            }
+            if (comboBox1.Text == "Başak")
+            {
+                textBox1.Text = "Sabah saatlerinde duygusal ve alıngan olabilirsiniz. Gördüğünüz rüyalardan etkilenmiş olabilirsiniz ve bazı endişeler duyabilirsiniz. Bilinçaltınızın derinlerinden yükselen endişelerden uzaklaşmanız zor olabilir fakat öğlene doğru haliniz değişecek. Dikkatinizi yapmanız gereken işlere odaklayacaksınız ve hareketli bir gün geçireceksiniz. İsteklerinizi gerçekleştirmek için kuvvetli arzular duyabilirsiniz ve güvendiğiniz kişiler ile görüşebilirsiniz. Böylece endişelerden ve yanıltıcı hayallerden uzaklaşıp kendinizi daha güçlü ve kararlı hissedeceksiniz.";
+                pictureBox1.ImageLocation = "basak.jpg";
+            }
+            if (comboBox1.Text == "Terazi")
+            {
+                textBox1.Text = "Bugün kendinizi daha iyi hissedeceksiniz. Karmaşık duygu ve düşüncelerden tamamen uzaklaşıp dikkatinizi kendinize ve yapmak istediğiniz işlere odaklayabilirsiniz. Ayrıca kendinize bakım uygulayabilir, estetik, güzellik, gençlik ve sağlık ile ilgili en son gelişmeleri ve yenilikleri araştırabilirsiniz. Aniden ortaya çıkan durumlar şaşırtıcı olabilir ve siz de davranışlarınız ile çevrenizdeki kişileri şaşırtabilirsiniz. Yaşantınızı veya kendiniz ile ilgili değiştirmek isteyip de yapamadığınız her ne var ise, bunların gerilimini hissedebilirsiniz. Dışarı çıkmak ve keyif aldığınız işler ile ilgilenmek sizi rahatlatacak.";
+                pictureBox1.ImageLocation = "terazi.jpg";
+            }
+            if (comboBox1.Text == "Akrep")
+            {
+                textBox1.Text = "Bugün kendinizi çok farklı hissedeceksiniz. İsteklerinizi gerçekleştireceğinize olan inancınız kuvvetlenecek. Güne sakin başlayacak ve yapmanız gereken işleri gözden geçireceksiniz. Yeni atılımlarda bulunabilirsiniz veya daha önce girişimde bulunduğunuz konu ile ilgili yeni hayaller kurabilirsiniz. Ayrıca hayal gücü yüksek kişiler ve sanatçılar ile görüşebilirsiniz ve hayal gücü gerektiren çalışmalar yapabilirsiniz. Hırslı ve sabırsız bir tavır içinde bulunmamaya özen gösterin. Makul olursanız, isteklerinizi gerçekleştirmeniz mümkün. Bu arada yabancılar ile ilişkilerinizde daha dikkatli davranın ve şansınızı iyi değerlendirmeye çalışın.";
+                pictureBox1.ImageLocation = "akrep.jpg";
+            }
+            if (comboBox1.Text == "Yay")
+            {
+                textBox1.Text = "Derin duygular ile uyanabilirsiniz. Ve görmüş olduğunuz rüyaların etkisinde kalabilirsiniz. Fakat öğlene doğru haliniz değişecek ve istekleriniz yükselmeye başlayacak. Öğleden sonraki saatler sizin için çok verimli olacak. Yeni projeler yapabilir, projelerinizi arkadaşlarınıza anlatabilir ve isteklerinizi ortaya koyabilirsiniz. Hem saygın kişilerin, hem de yakınlarınızın desteğini alacaksınız. Günün ikinci yarısı bulunacağınız girişimlerde başarılı olacak ve kendinize olan güveniniz giderek yükselecek. Bulunduğunuz ortamda bugün dikkat çekici olacaksınız. Ekip çalışmaları ve yapacağınız organizasyonlar başarılı olacak.";
+                pictureBox1.ImageLocation = "yay.jpg";
+            }
+            if (comboBox1.Text == "Oğlak")
+            {
+                textBox1.Text = "Sabah saatlerinde çeşitli hayaller kurabilirsiniz ve ideallerinizi gözden geçirebilirsiniz. Kendinizi daha iyi ve güçlü hissetmeye başlayacaksınız. Bugün yapmanız gereken işlerin dışında bir de kendinizle ilgileneceksiniz. Güzellik, estetik, masaj, yoga ve benzeri konularla ilgilenebilirsiniz. Yenileyici ürünler ve diyet programlarını araştırabilirsiniz. Sergiler, açılışlar ve sanatsal faaliyetlerle ilgilenebilir, sanatla ilgilenen arkadaşlarınızla haberleşebilirsiniz. Günün ilerleyen saatlerinde güvendiğiniz kişiler ile görüşebilir ve onların desteğini alabilirsiniz. Ani değişiklikler ve marjinal kişilerden rahatsız olsanız bile sabırlı ve serinkanlı davranmayı başaracaksınız.";
+                pictureBox1.ImageLocation = "oglak.jpg";
+            }
+            if (comboBox1.Text == "Kova")
+            {
+                textBox1.Text = "Bugün kendinizi çok farklı hissedeceksiniz. Sabah saatlerinde yapılması gereken işlerinize dikkatinizi odaklayacaksınız fakat yeni bir girişimde bulunmak istiyorsanız öğleden sonraki saatleri bekleyin. Bugün yeni projeler yapabilir, isteklerinizi ortaya koyabilirsiniz. İkna edici ve etkileyici olacaksınız. Hem aşk, hem de parasal açıdan çok hoş gelişmeler meydana gelecek. Çekici ve etkileyici olacağınız bir gün. Bulunduğunuz ortamda hem karşı cinsin, hem de çevrenizin dikkatini çekeceksiniz.";
+                pictureBox1.ImageLocation = "kova.jpg";
+            }
+            if (comboBox1.Text == "Balık")
+            {
+                textBox1.Text = "Sabahın erken saatlerinde gördüğünüz rüyaların etkisi ile uyanabilirsiniz ve çeşitli hayaller kurabilirsiniz. Karmaşık düşüncelerden ve hayallerin dağıtıcı etkisinden uzaklaşın ve dikkatinizi yapmanız gereken işlere odaklayın. Karşılaştığınız kişiler ve olaylar duygularınızın dalgalanmasına neden olabilir ve bilinçaltınız uyanabilir. Ancak sabırlı davranmayı başarabilirsiniz. İnancınızı sarsan durumlar olsa bile içinizden yükselen sesi önemseyin ve kararlarınızı sürdürmek için gayret gösterin. Aslında isteklerinizi gerçekleştirecek gücünüz var ve kendinize olan güveniniz yüksek. Duygularınızı denetlemeyi başarırsanız, isteklerinizi gerçekleştirebilirsiniz.";
+                pictureBox1.ImageLocation = "balık.jpg";
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+    }
